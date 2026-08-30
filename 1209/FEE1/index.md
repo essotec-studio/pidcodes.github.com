@@ -2,13 +2,13 @@
 layout: pid
 title: XENPAD One
 owner: essotec
-license: MIT
+license: GPL-3.0-or-later
 site: https://xenpads.com
 source: https://github.com/xenpads/xenpad-firmware
 ---
 A programmable USB button with a full-colour indicator, built on a Waveshare
 RP2040-Zero with a mechanical switch and a WS2812. Firmware uses the Raspberry
-Pi Pico SDK and TinyUSB and is released under the MIT licence.
+Pi Pico SDK and TinyUSB and is released under the the GNU General Public License v3.
 
 The device exposes two HID interfaces: a keyboard interface, which sends
 shortcuts stored in the device's own flash, and a vendor interface (usage page
